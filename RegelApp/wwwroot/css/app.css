@@ -1,0 +1,176 @@
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html, body, #app {
+    height: 100%;
+    overflow: hidden;
+}
+
+#app {
+    background-color: inherit;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.iconGpt {
+    display: inline-block; /* Ensure the icon behaves like an inline element */
+    width: 16px; /* Set the desired width for the icon */
+    height: 16px; /* Set the desired height for the icon */
+    background: url('your-svg-file.svg') no-repeat center center; /* Specify the path to your SVG file */
+}
+
+
+.uzkCss::before {
+    content: "icn";
+    color: transparent;
+    display: inline-block;
+    background-image: url("/images/RN01_uzk.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+
+.klantCss::before {
+    content: "icn";
+    color: transparent;
+    display: inline-block;
+    background-image: url("/images/RN02_klant.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.accomCss::before {
+    content: "icn";
+    color: transparent;
+    display: inline-block;
+    background-image: url("/images/RN11_accom.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.autoCss::before {
+    content: "icn";
+    color: transparent;
+    display: inline-block;
+    background-image: url("/images/RN08_auto.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.bruikleenCss::before {
+    content: "icn";
+    color: transparent;
+    display: inline-block;
+    background-image: url("/images/RN14_bruikleen.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+.sunclickable {
+    color: #3366CC;
+    cursor: pointer;
+}
+
+.sun-vert-center {
+    display: flex;
+    align-items: center;
+}
+
+.sun-toplabel {
+    font-size: smaller;
+    opacity: 0.5;
+}
+
+.sun-row-min-height .row {
+    min-height: 23px; 
+}
+
+.sun-button-small {
+    min-width: 56px;
+    height: 28px
+}
+
+.sun-button-smaller {
+    min-width: 44px;
+    height: 28px
+}
+
+.sun-button-small-icon {
+    font-size: 18px;
+}
+
+.sun-tab-iconfont {
+    font-size: 22px;
+}
+
+.col-caption {
+    max-width: 172px;
+    font-weight: bolder;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: small
+}
+
+.col-fieldval {
+    word-wrap: break-word !important
+}
+
+
+html, body {
+    -webkit-overflow-scrolling: touch
+}
+
+/*.blazored-modal {
+    margin: 0 .5rem;
+}
+*/
+.dxbl-grid-header-row {
+    display: none;
+}
+
+.docLinkFontIconSize {
+    font-size: 16px;
+}
+
+
